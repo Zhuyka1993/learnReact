@@ -1,3 +1,4 @@
+// Файл App.js
 import "./App.css";
 import Grandma from "./Grandma";
 import Daughter from "./Daughter";

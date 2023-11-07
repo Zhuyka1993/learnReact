@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Grandma from "./Grandma";
+import Daughter from "./Daughter";
+import Child from "./Child";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="first-test">
+      <Grandma wisdom={"ніколи не блядуй"} />
+      <Daughter
+        data={
+          "Я викинула  бабцю з цієї ланки, і створила свою мудрість -  путін хуйло"
+        }
+      />
+      <Child
+        data={
+          "Мене так задовбали батьки, невже вони не рощуміють, що головне - це Блохерство?"
+        }
+      />
     </div>
   );
 }
